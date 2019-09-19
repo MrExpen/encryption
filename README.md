@@ -1,6 +1,6 @@
 # encryption
 
-supported characters: "[ENTER][SPACE]!"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{|}~‘‹’“”™§¦©	«№"
+supported characters: "[TAB][ENTER][SPACE]!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_abcdefghijklmnopqrstuvwxyz{|}~АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯабвгдеёжзийклмнопрстуфхцчшщъыьэюя‘‹’“”«№"
 
 the password and text must consist of these characters only!!
 
