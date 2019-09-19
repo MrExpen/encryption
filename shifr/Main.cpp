@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string letters = "\t\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~‘‹’“”«¹";
+string letters = "\t\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ְֱֲֳִֵ¨ֶַָֹÊֻּֽ־ֿ׀ׁׂ׃װױײ׳״ÙÚÛÜÝÞßאבגדהו¸זחטיךכלםמןנסעףפץצקרשתûü‎‏ÿ‘‹’“”«¹";
 
 int myfind(char c)
 {

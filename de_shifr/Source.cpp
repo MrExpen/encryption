@@ -5,7 +5,7 @@
 
 using namespace std;
 
-string letters = "\t\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~‘‹’“”«¹";
+string letters = "\t\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~ÀÁÂÃÄÅ¨ÆÇÈÉÊËÌÍÎÏĞÑÒÓÔÕÖ×ØÙÚÛÜİŞßàáâãäå¸æçèéêëìíîïğñòóôõö÷øùúûüışÿ‘‹’“”«¹";
 
 int myfind(char c)
 {
@@ -46,8 +46,7 @@ int main()
 	for (int i = 0; i < text.length(); i++)
 	{
 		k = letters.at((myfind(text.at(i)) - myfind(Password.at(i % Password.length())) + letters.length() * 5) % letters.length());
-		if (i > 2)
-			fout << k;
+		fout << k;
 	}
 	fout.close();
 }
